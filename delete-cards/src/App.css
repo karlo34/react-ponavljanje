@@ -1,0 +1,30 @@
+.Kartice{
+  display: flex;
+  flex-wrap: wrap;
+}
+.card{
+  background-color: lightgrey;
+  width: 300px;
+  padding: 10px 0;
+  margin: 8px;
+}
+.btn{
+  background-color: brown;
+  color: white;
+}
+.Modal{
+  background-color: lightblue;
+  position: absolute;
+  left: 40%;
+  top: 40%;
+  z-index: 1;
+}
+.Backdrop{
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-color: fuchsia;
+  opacity: 0.6;
+  top: 0;
+  left: 0;
+}
